@@ -1,4 +1,5 @@
-const BowWowKennels = (name, breed) => {
+let BowWowKennels = []
+const createPet = (name, breed) => {
     const newPet = {
         name: name,
         breed: breed,
@@ -6,4 +7,4 @@ const BowWowKennels = (name, breed) => {
     return newPet
 }
 
-export default BowWowKennels
+export default createPet
